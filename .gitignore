@@ -1,0 +1,133 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.python-version
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Secret settings
+.env
+.env.*
+config/settings/local.py
+secrets.json
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js (if using npm for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build tools
+.Python
+.pyre/
+
+# Editable installs
+*.egg-link
+
+# Testing
+test-results.xml
+tests/__pycache__/
+
+# SendGrid
+sendgrid.log
+
+# QR codes (if saving locally)
+*.png
+
+# Local dev scripts
+*.sh
+*.bak
+*.swp
+
+# Backup files
+*.bak
+*.orig
+*.old
+*.tmp
+
+# Sentry or other crash logs
+sentry-debug.log
+
+# Admin 2FA Plus (local trust cookie identifiers)
+admin_2fa_trust.json
+
+# Compiled UI assets (if any)
+static/admin_2fa_plus/
+
+# Zip files
+*.zip
